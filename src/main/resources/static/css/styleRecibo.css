@@ -1,0 +1,167 @@
+@charset "ISO-8859-1";
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000;
+    background-color: #f7f7f7;
+    width: 80%;
+    margin: auto;
+}
+
+ #logoRecibo {
+   	width: 120px;
+   }
+   
+ #reciboPrincipal {
+ 	display: inline-block;
+	font-family: Verdana;
+	text-align: left;
+	width: 90%;
+	margin: auto;
+	
+   }
+   
+   #reciboCentro {
+   text-align: center;
+  	width: 80%;
+	margin: auto;
+   }
+   
+   #reciboDerecha{
+   display: block;
+	width: 40%;  
+	float:right; 
+	text-align: right;	
+   }
+   
+   #reciboIzquierda {
+	width: 70%;
+	float: left;
+	}
+	
+	#reciboCentro2 {
+   text-align: center;
+  	width: 70%;
+	margin: auto;
+   }
+   
+   #reciboDerecha2{
+   display: block;
+	width: 50%;  
+	float:right; 
+	text-align: justify;
+	
+   }
+   
+   #reciboIzquierda2 {
+	width: 30%;
+	float: left;
+	}
+	
+	#encabezadoTotales {
+	width: 20%;
+	float: left;
+	}
+	
+	#encabezadoResultados {
+	width: 20%;
+	float: left;
+	}
+	
+	#firmita {
+	width: 10%;
+	float: left;
+   	text-align: center;   
+   	padding: 7px;
+   }
+   
+   table {
+   	border: 1px solid black;
+   	width: 70%;
+   	text-align: left;
+   	font-size: 12px;
+   	margin: 2em 0 2em 0;
+   }
+   
+   table thead {
+   border-bottom: 1px solid black;
+   	background-color: yellow;
+   }
+   
+   form {
+	margin: auto;
+	width: 70%;
+	padding: 10px;
+	align-content: center;
+	box-sizing: border-box;
+	border: 3px solid #fde884;
+	border-radius: 10px;
+}
+
+form div {
+	display: block;
+	width: 100%;
+	margin: auto;
+    padding: 6px; 
+    
+}
+
+form input {
+	display: block;
+  	
+	box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff;
+	width: 50%;
+	transition: all 0.2s ease-in-out;
+	
+	border: 0;
+	outline: 0;
+	font-size: 15px;
+	padding: 0.2em;
+	margin-top:0.2em;
+}
+
+form input[type="date"] {
+	
+	width: 50%;
+}
+
+form label {
+	margin: auto;
+	width: 100%;
+}
+
+form textarea {
+	display: block;
+  	margin-right: 8px;
+	box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff;
+	width: 50%;
+	transition: all 0.2s ease-in-out;
+	appearance: none;
+	-webkit-appearance: none;
+	border: 0;
+	outline: 0;
+	font-size: 15px;
+	padding: 0.2em;
+	margin-top:0.2em;
+}
+
+form select{
+	display: block;
+  	margin-right: 8px;
+	box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff;
+	width: 50%;
+	transition: all 0.2s ease-in-out;
+	border: 0;
+	outline: 0;
+	font-size: 15px;
+	padding: 0.2em;
+	margin-top:0.2em;
+}
+
+#tabla {
+	display: block;
+	widht: 70%;
+}
+
+   
